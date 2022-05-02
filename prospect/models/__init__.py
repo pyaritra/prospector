@@ -5,8 +5,7 @@ common parameter transformations, and pre-defined sets of parameter
 specifications.
 """
 
-from .sedmodel import ProspectorParams, SedModel, SpecModel, PolySpecModel, SplineSpecModel
+from .sedmodel import ProspectorParams, SpecModel, PolySpecModel, SplineSpecModel, PolyFitModel
 
 __all__ = ["ProspectorParams",
-           "SpecModel", "PolySpecModel", "SplineSpecModel",
-           "SedModel"]
+           "SpecModel", "PolySpecModel", "SplineSpecModel", "PolyFitModel"]
